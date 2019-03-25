@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { SobreNosotrosRoutingModule } from './sobre-nosotros-routing.module';
+import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [SobreNosotrosComponent],
   imports: [
     CommonModule,
     SobreNosotrosRoutingModule
